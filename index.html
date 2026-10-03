@@ -2,86 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Student Portal - [Tamang Srijana]</title>
-  <!-- Basic, internal CSS. No advanced styling. -->
-  <style>
-    body {
-      font-family: sans-serif; /* A simple, default font */
-      margin: 10px;
-      line-height: 1.5; /* Makes text easier to read */
-    }
-
-    h1 {
-      color: Navy; /* A classic, simple color */
-      border-bottom: 2px solid Navy;
-    }
-
-    /* Minimal styling for the sections */
-    div.section {
-      margin-bottom: 20px;
-      padding: 10px;
-      border: 1px solid silver;
-    }
-
-    /* Styling for the forms to look functional but simple */
-    input[type="text"],
-    textarea {
-      width: 90%;
-      padding: 5px;
-      margin-top: 5px;
-      display: block;
-    }
-
-    button {
-      padding: 5px 10px;
-      margin-right: 10px;
-      cursor: pointer;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Profile</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- The main page content begins here -->
-  
-  <header>
-    <h1>Web Programming 1 - [Tamang Srijana]</h1>
-    <p>Student Name: [Tamang Srijana] | Time Spent: 1.5 hrs | Collaborators: None</p>
-  </header>
-
-  <hr> <!-- Simple visual break -->
-
-  <!-- Essential Links Section -->
-  <div class="section">
-    <h2>My Course Links</h2>
-    <p>Here are some of the web resources we use:</p>
-    <ul>
-      <li><a href="https://github.com">Our Class Repository (GitHub)</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML Reference on MDN</a></li>
-      <li><a href="https://w3schools.com">W3Schools (Good for checking tags)</a></li>
-    </ul>
+  <div class="card">
+    <div class="badge">Student</div>
+    <h2>Srijana Tamang/h2>
+    <p class="subtitle">Computer Engineering • STU</p>
+    <hr>
+    <div class="links">
+      <a href="#">Email: tamangsrijana425@gmail.com</a>
+      <a href="#">Gihub: tamangshrijana425</a>
+    </div>
   </div>
-
-  <hr>
-
-  <!-- Interactive Form Section -->
-  <div class="section">
-    <h2>Homework Submission/Notes</h2>
-    <form action="#" method="get">
-      <label for="student-id">Your Student ID:</label>
-      <input type="text" id="student-id" name="sid" placeholder="e.g., 12345" required>
-
-      <br>
-
-      <label for="submission-notes">Submission Notes:</label>
-      <textarea id="submission-notes" name="notes" rows="4" placeholder="Any problems? Write them here."></textarea>
-
-      <br>
-
-      <!-- Simple submit and reset buttons -->
-      <button type="submit">Send Form</button>
-      <button type="reset">Clear Form</button>
-    </form>
-  </div>
-
 </body>
 </html>
